@@ -1,0 +1,114 @@
+h1{
+    color: red 
+}
+body{
+    background-color: #313131;
+    text-align: centers;
+}
+.heading{
+    background-color: black;
+    border: 2px solid #000000;
+    margin: 30px;
+    border-radius: 50px;
+    text-align:center
+}
+.flamingo{
+    background-color: darkorange;
+    border: 2px solid #000000 ;
+    border-radius: 50px;
+    padding: 30px;
+    margin: 30px;
+    display: flex;
+    justify-content: left;
+}
+.flamingo h2{
+    padding-left: 90px;
+}
+.flamingoimg{
+    padding-left: 35px;
+}
+.flamingoimg:hover img{
+    transform:scale(1.1,1.1);
+    opacity:0.9;
+}
+.how{
+    text-align: left;
+}
+.elephant{
+   border: 2px solid #000000;
+   border-radius: 50px;
+   padding: 30px;
+   margin: 30px;
+   background-color: deeppink;
+   display: flex;
+   justify-content: left;
+}
+.elephantimg:hover{
+    transform:scale(1.1,1.1);
+    opacity: 0.9;
+}
+.elephantimg{
+    padding-left: 35px;
+}
+.elephant h2{
+    padding-left: 90px;
+}
+.frog{
+    background-color: red;
+    border: 2px solid #000000;
+    padding: 30px;
+    border-radius: 50px;
+    margin: 30px;
+    display: flex;
+    justify-content: left;
+}
+.frogimg:hover img{
+    transform:scale(1.1,1.1);
+    opacity:0.9;
+}
+.frogimg{
+    padding-left: 35px;
+}
+.frog h2{
+    padding-left: 90px;
+}
+.birds{
+    border: 2px solid #000000;
+    background-color: aqua;
+    border-radius: 50px;
+    padding: 30px;
+    margin: 30px;
+    display: flex;
+    justify-content: left;
+}
+.birdimg:hover{
+    transform:scale(1.1,1.1);
+}
+.birdimg{
+    padding-left: 35px;
+}
+.birds h2{
+    padding-left: 90px;
+}
+.origami{
+    position:relative;
+}
+.origami p{
+    position: absolute;
+    top:5%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+}
+.origami:hover p{
+    opacity:1;
+}
+.origami:hover h2{
+    padding-top: 30px;
+}
+a:link{
+    color:red;
+}
+a:visited{
+    color:green;
+}
